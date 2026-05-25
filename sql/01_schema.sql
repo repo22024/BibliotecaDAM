@@ -64,7 +64,7 @@ INSERT INTO libros (titulo, autor, anio, id_genero) VALUES
 CREATE TABLE IF NOT EXISTS socios (
     id              INT AUTO_INCREMENT PRIMARY KEY,
     nombre          VARCHAR(100) NOT NULL,
-    email           VARCHAR(100),
+    email           VARCHAR(100) NOT NULL,
     -- NOTA: En producción, este campo debería ser NOT NULL
     -- Melisa reportará esto como un Issue durante la práctica
     fecha_registro  DATE DEFAULT (CURRENT_DATE)
