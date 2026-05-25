@@ -66,6 +66,17 @@ INSERT INTO libros (titulo, autor, anio, id_genero) VALUES
 
     ('Fahrenheit 451',          'Ray Bradbury',     1953, 2);
 
+-- =====================================================================
+-- AÑADIR LIBROS DE HISTORIA
+-- DESCRIPCIÓN: Inserción de 5 libros de la categoría Historia
+-- Alumno: Lucía Hernández Pestana
+-- =====================================================================
+INSERT INTO libros (titulo, autor, anio, id_genero) VALUES
+    ('Sapiens: De animales a dioses', 'Yuval Noah Harari', 2011, 3),
+    ('Armas, gérmenes y acero', 'Jared Diamond', 1997, 3),
+    ('El queso y los gusanos', 'Carlo Ginzburg', 1976, 3),
+    ('Postguerra: Una historia de Europa desde 1945', 'Tony Judt', 2005, 3),
+    ('SPQR: Una historia de la antigua Roma', 'Mary Beard', 2015, 3);
 -- -------------------------------------------------------
 -- TABLA: socios
 -- Almacena las personas que son socias de la biblioteca
