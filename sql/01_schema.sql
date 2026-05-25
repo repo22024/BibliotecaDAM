@@ -49,6 +49,23 @@ CREATE TABLE IF NOT EXISTS libros (
     FOREIGN KEY (id_genero) REFERENCES generos(id)
     -- FOREIGN KEY: este campo debe contener un id que exista en la tabla generos
 );
+
+-- Insertamos 5 libros de Ciencia Ficción
+
+-- El formato es: (titulo, autor, anio_publicacion, id_genero)
+
+INSERT INTO libros (titulo, autor, anio, id_genero) VALUES
+
+    ('Dune',                    'Frank G. Herbert',    1965, 2),
+
+    ('Neuromante',              'William Gibson',   1984, 2),
+
+    ('El marciano',             'Andy Weir',        2011, 2),
+
+    ('La guerra de los mundos', 'H.G. Wells',       1898, 2),
+
+    ('Fahrenheit 451',          'Ray Bradbury',     1953, 2);
+
 -- =====================================================================
 -- AÑADIR LIBROS DE HISTORIA
 -- DESCRIPCIÓN: Inserción de 5 libros de la categoría Historia
