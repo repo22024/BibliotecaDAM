@@ -50,33 +50,21 @@ CREATE TABLE IF NOT EXISTS libros (
     -- FOREIGN KEY: este campo debe contener un id que exista en la tabla generos
 );
 
--- Insertamos 5 libros de Ciencia Ficción
 
--- El formato es: (titulo, autor, anio_publicacion, id_genero)
+DESCRIPCION: Libros de novela para la BibliotecaDAM
+ALUMNO: Ulises.
+RAMA: uli-novela
+FECHA: 25/05/2026
 
-INSERT INTO libros (titulo, autor, anio, id_genero) VALUES
+    INSERT INTO libros (titulo, autor, anio, id_genero, disponible)
+VALUES ('Cien años de soledad', 'Gabriel García Márquez', 1967, 1, TRUE);
 
-    ('Dune',                    'Frank Herbert',    1965, 2),
+INSERT INTO libros (titulo, autor, anio, id_genero, disponible)
+VALUES ('La sombra del viento', 'Carlos Ruiz Zafón', 2001, 1, TRUE);
 
-    ('Neuromante',              'William Gibson',   1984, 2),
+INSERT INTO libros (titulo, autor, anio, id_genero, disponible)
+VALUES ('1984', 'George Orwell', 1949, 1, TRUE);
 
-    ('El marciano',             'Andy Weir',        2011, 2),
-
-    ('La guerra de los mundos', 'H.G. Wells',       1898, 2),
-
-    ('Fahrenheit 451',          'Ray Bradbury',     1953, 2);
-
--- =====================================================================
--- AÑADIR LIBROS DE HISTORIA
--- DESCRIPCIÓN: Inserción de 5 libros de la categoría Historia
--- Alumno: Lucía Hernández Pestana
--- =====================================================================
-INSERT INTO libros (titulo, autor, anio, id_genero) VALUES
-    ('Sapiens: De animales a dioses', 'Yuval Noah Harari', 2011, 3),
-    ('Armas, gérmenes y acero', 'Jared Diamond', 1997, 3),
-    ('El queso y los gusanos', 'Carlo Ginzburg', 1976, 3),
-    ('Postguerra: Una historia de Europa desde 1945', 'Tony Judt', 2005, 3),
-    ('SPQR: Una historia de la antigua Roma', 'Mary Beard', 2015, 3);
 -- -------------------------------------------------------
 -- TABLA: socios
 -- Almacena las personas que son socias de la biblioteca
