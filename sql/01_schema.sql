@@ -2,7 +2,7 @@
 -- ARCHIVO: 01_schema.sql
 -- DESCRIPCIÓN: Estructura base de la base de datos BibliotecaDAM
 -- AUTOR: Profesor/a — NO MODIFICAR ESTE ARCHIVO
--- FECHA: (fecha de la clase)
+-- FECHA: (25/05/2026)
 -- =====================================================================
 -- Este archivo crea la base de datos y todas las tablas necesarias.
 -- Los alumnos solo deben crear sus propios archivos de datos (02, 03, etc.)
