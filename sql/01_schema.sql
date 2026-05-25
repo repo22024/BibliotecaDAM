@@ -4,8 +4,11 @@
 -- AUTOR: Profesor/a — NO MODIFICAR ESTE ARCHIVO
 -- FECHA: (25/05/2026)
 -- =====================================================================
--- Este archivo crea la base de datos y todas las tablas necesarias.
--- Los alumnos solo deben crear sus propios archivos de datos (02, 03, etc.)
+-- ARCHIVO: 03_datos_ciencia.sql
+-- DESCRIPCIÓN: Libros de Ciencia Ficción para la BibliotecaDAM
+-- ALUMNO: javier
+--  RAMA: feature/javier-scifi
+-- FECHA: 25-05-2026
 -- =====================================================================
 
 -- Creamos la base de datos si no existe
@@ -13,6 +16,7 @@
 CREATE DATABASE IF NOT EXISTS biblioteca_dam;
 
 -- Nos ponemos "dentro" de esa base de datos para trabajar en ella
+
 USE biblioteca_dam;
 
 -- -------------------------------------------------------
@@ -56,6 +60,22 @@ INSERT INTO libros (titulo, autor, anio, id_genero) VALUES
     ('El queso y los gusanos', 'Carlo Ginzburg', 1976, 3),
     ('Postguerra: Una historia de Europa desde 1945', 'Tony Judt', 2005, 3),
     ('SPQR: Una historia de la antigua Roma', 'Mary Beard', 2015, 3);
+
+
+DESCRIPCION: Libros de novela para la BibliotecaDAM
+ALUMNO: Ulises.
+RAMA: uli-novela
+FECHA: 25/05/2026
+
+    INSERT INTO libros (titulo, autor, anio, id_genero, disponible)
+VALUES ('Cien años de soledad', 'Gabriel García Márquez', 1967, 1, TRUE);
+
+INSERT INTO libros (titulo, autor, anio, id_genero, disponible)
+VALUES ('La sombra del viento', 'Carlos Ruiz Zafón', 2001, 1, TRUE);
+
+INSERT INTO libros (titulo, autor, anio, id_genero, disponible)
+VALUES ('1984', 'George Orwell', 1949, 1, TRUE);
+
 -- -------------------------------------------------------
 -- TABLA: socios
 -- Almacena las personas que son socias de la biblioteca
