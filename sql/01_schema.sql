@@ -56,7 +56,7 @@ CREATE TABLE IF NOT EXISTS libros (
 
 INSERT INTO libros (titulo, autor, anio, id_genero) VALUES
 
-    ('Dune',                    'Frank Herbert',    1965, 2),
+    ('Dune',                    'Frank G. Herbert',    1965, 2),
 
     ('Neuromante',              'William Gibson',   1984, 2),
 
