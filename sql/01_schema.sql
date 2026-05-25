@@ -4,8 +4,11 @@
 -- AUTOR: Profesor/a — NO MODIFICAR ESTE ARCHIVO
 -- FECHA: (25/05/2026)
 -- =====================================================================
--- Este archivo crea la base de datos y todas las tablas necesarias.
--- Los alumnos solo deben crear sus propios archivos de datos (02, 03, etc.)
+-- ARCHIVO: 03_datos_ciencia.sql
+-- DESCRIPCIÓN: Libros de Ciencia Ficción para la BibliotecaDAM
+-- ALUMNO: javier
+--  RAMA: feature/javier-scifi
+-- FECHA: 25-05-2026
 -- =====================================================================
 
 -- Creamos la base de datos si no existe
@@ -13,6 +16,7 @@
 CREATE DATABASE IF NOT EXISTS biblioteca_dam;
 
 -- Nos ponemos "dentro" de esa base de datos para trabajar en ella
+
 USE biblioteca_dam;
 
 -- -------------------------------------------------------
@@ -45,6 +49,22 @@ CREATE TABLE IF NOT EXISTS libros (
     FOREIGN KEY (id_genero) REFERENCES generos(id)
     -- FOREIGN KEY: este campo debe contener un id que exista en la tabla generos
 );
+
+-- Insertamos 5 libros de Ciencia Ficción
+
+-- El formato es: (titulo, autor, anio_publicacion, id_genero)
+
+INSERT INTO libros (titulo, autor, anio, id_genero) VALUES
+
+    ('Dune',                    'Frank Herbert',    1965, 2),
+
+    ('Neuromante',              'William Gibson',   1984, 2),
+
+    ('El marciano',             'Andy Weir',        2011, 2),
+
+    ('La guerra de los mundos', 'H.G. Wells',       1898, 2),
+
+    ('Fahrenheit 451',          'Ray Bradbury',     1953, 2);
 
 -- -------------------------------------------------------
 -- TABLA: socios
