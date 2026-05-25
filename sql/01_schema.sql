@@ -48,7 +48,7 @@ CREATE TABLE IF NOT EXISTS libros (
 -- =====================================================================
 -- AÑADIR LIBROS DE HISTORIA
 -- DESCRIPCIÓN: Inserción de 5 libros de la categoría Historia
--- Alumno: Lucía Hernández Pestana
+-- Alumno: Lucía Hernández Pestana. 
 -- =====================================================================
 INSERT INTO libros (titulo, autor, anio, id_genero) VALUES
     ('Sapiens: De animales a dioses', 'Yuval Noah Harari', 2011, 3),
