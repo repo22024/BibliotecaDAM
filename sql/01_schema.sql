@@ -69,7 +69,7 @@ INSERT INTO libros (titulo, autor, anio, id_genero) VALUES
 -- =====================================================================
 -- AÑADIR LIBROS DE HISTORIA
 -- DESCRIPCIÓN: Inserción de 5 libros de la categoría Historia
--- Alumno: Lucía Hernández Pestana
+-- Alumno: Lucía Hernández Pestana. 
 -- =====================================================================
 INSERT INTO libros (titulo, autor, anio, id_genero) VALUES
     ('Sapiens: De animales a dioses', 'Yuval Noah Harari', 2011, 3),
@@ -77,6 +77,22 @@ INSERT INTO libros (titulo, autor, anio, id_genero) VALUES
     ('El queso y los gusanos', 'Carlo Ginzburg', 1976, 3),
     ('Postguerra: Una historia de Europa desde 1945', 'Tony Judt', 2005, 3),
     ('SPQR: Una historia de la antigua Roma', 'Mary Beard', 2015, 3);
+
+
+DESCRIPCION: Libros de novela para la BibliotecaDAM
+ALUMNO: Ulises.
+RAMA: uli-novela
+FECHA: 25/05/2026
+
+    INSERT INTO libros (titulo, autor, anio, id_genero, disponible)
+VALUES ('Cien años de soledad', 'Gabriel García Márquez', 1967, 1, TRUE);
+
+INSERT INTO libros (titulo, autor, anio, id_genero, disponible)
+VALUES ('La sombra del viento', 'Carlos Ruiz Zafón', 2001, 1, TRUE);
+
+INSERT INTO libros (titulo, autor, anio, id_genero, disponible)
+VALUES ('1984', 'George Orwell', 1949, 1, TRUE);
+
 -- -------------------------------------------------------
 -- TABLA: socios
 -- Almacena las personas que son socias de la biblioteca
