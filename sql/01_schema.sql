@@ -49,6 +49,17 @@ CREATE TABLE IF NOT EXISTS libros (
     FOREIGN KEY (id_genero) REFERENCES generos(id)
     -- FOREIGN KEY: este campo debe contener un id que exista en la tabla generos
 );
+-- =====================================================================
+-- AÑADIR LIBROS DE HISTORIA
+-- DESCRIPCIÓN: Inserción de 5 libros de la categoría Historia
+-- Alumno: Lucía Hernández Pestana. 
+-- =====================================================================
+INSERT INTO libros (titulo, autor, anio, id_genero) VALUES
+    ('Sapiens: De animales a dioses', 'Yuval Noah Harari', 2011, 3),
+    ('Armas, gérmenes y acero', 'Jared Diamond', 1997, 3),
+    ('El queso y los gusanos', 'Carlo Ginzburg', 1976, 3),
+    ('Postguerra: Una historia de Europa desde 1945', 'Tony Judt', 2005, 3),
+    ('SPQR: Una historia de la antigua Roma', 'Mary Beard', 2015, 3);
 
 
 DESCRIPCION: Libros de novela para la BibliotecaDAM
