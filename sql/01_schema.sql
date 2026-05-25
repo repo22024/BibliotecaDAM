@@ -46,6 +46,21 @@ CREATE TABLE IF NOT EXISTS libros (
     -- FOREIGN KEY: este campo debe contener un id que exista en la tabla generos
 );
 
+
+DESCRIPCION: Libros de novela para la BibliotecaDAM
+ALUMNO: Ulises.
+RAMA: uli-novela
+FECHA: 25/05/2026
+
+    INSERT INTO libros (titulo, autor, anio, id_genero, disponible)
+VALUES ('Cien años de soledad', 'Gabriel García Márquez', 1967, 1, TRUE);
+
+INSERT INTO libros (titulo, autor, anio, id_genero, disponible)
+VALUES ('La sombra del viento', 'Carlos Ruiz Zafón', 2001, 1, TRUE);
+
+INSERT INTO libros (titulo, autor, anio, id_genero, disponible)
+VALUES ('1984', 'George Orwell', 1949, 1, TRUE);
+
 -- -------------------------------------------------------
 -- TABLA: socios
 -- Almacena las personas que son socias de la biblioteca
