@@ -8,7 +8,7 @@
 -- DESCRIPCIÓN: Libros de Ciencia Ficción para la BibliotecaDAM
 -- ALUMNO: javier
 --  RAMA: feature/javier-scifi
--- FECHA: 25-05-2026
+-- FECHA: 25-05-2026 /
 -- =====================================================================
 
 -- Creamos la base de datos si no existe
