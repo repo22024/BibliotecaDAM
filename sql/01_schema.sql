@@ -4,8 +4,11 @@
 -- AUTOR: Profesor/a — NO MODIFICAR ESTE ARCHIVO
 -- FECHA: (25/05/2026)
 -- =====================================================================
--- Este archivo crea la base de datos y todas las tablas necesarias.
--- Los alumnos solo deben crear sus propios archivos de datos (02, 03, etc.)
+-- ARCHIVO: 03_datos_ciencia.sql
+-- DESCRIPCIÓN: Libros de Ciencia Ficción para la BibliotecaDAM
+-- ALUMNO: javier
+--  RAMA: feature/javier-scifi
+-- FECHA: 25-05-2026
 -- =====================================================================
 
 -- Creamos la base de datos si no existe
@@ -13,6 +16,7 @@
 CREATE DATABASE IF NOT EXISTS biblioteca_dam;
 
 -- Nos ponemos "dentro" de esa base de datos para trabajar en ella
+
 USE biblioteca_dam;
 
 -- -------------------------------------------------------
