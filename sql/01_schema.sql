@@ -46,6 +46,16 @@ CREATE TABLE IF NOT EXISTS libros (
     -- FOREIGN KEY: este campo debe contener un id que exista en la tabla generos
 );
 
+INSERT INTO libros (titulo, autor, anio, id_genero) VALUES
+    ('It', 'Stephen King', 1986, 5),
+    ('El resplandor', 'Stephen King', 1977, 5),
+    ('Drácula', 'Bram Stoker', 1897, 5),
+    ('Frankenstein', 'Mary Shelley', 1818, 5),
+    ('El exorcista', 'William Peter Blatty', 1971, 5),
+    ('Bird Box', 'Josh Malerman', 2014, 5);
+
+-- nuevo libro añadido el dia 01/06/2026
+
 -- -------------------------------------------------------
 -- TABLA: socios
 -- Almacena las personas que son socias de la biblioteca
