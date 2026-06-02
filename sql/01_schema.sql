@@ -92,3 +92,6 @@ INSERT INTO generos (nombre) VALUES
 -- -------------------------------------------------------
 SHOW TABLES;
 SELECT * FROM generos; -- Muestra la lista de géneros con sus IDs
+
+-- MODIFICADO POR: ANGEL PASTRAN ORSINI
+-- FECHA: 02/06/2026
