@@ -1,14 +1,17 @@
 name: Primera automatizacion
 
 on:
-  push:
-    branches:
-      - main
+ push:
+   branches:
+     - main
 
 jobs:
-  saludar:
-    runs-on: ubuntu-latest
+ prueba:
+   runs-on: ubuntu-latest
 
-    steps:
-      - name: Mostrar mensaje
-        run: echo "Hola, soy una automatizacion 🚀"
+   steps:
+     - name: Simular proceso real
+       run: |
+         echo "Iniciando proceso..."
+         echo "Comprobando codigo..."
+         echo "Todo correcto ✅"
