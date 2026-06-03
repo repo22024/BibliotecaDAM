@@ -1,4 +1,4 @@
-name: Compilar proyecto Java de pruebas
+name: Compilar proyecto Java de pruebast
 
 on:
   push:
