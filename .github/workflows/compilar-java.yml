@@ -21,6 +21,10 @@ jobs:
 
      - name: Compilar archivos Java
        run: javac java-pruebas/src/*.java
+       
+     - name: ejecutar archivos Java
+       run: java -cp java-pruebas/src/*.java
+       
 
 
 
