@@ -1,0 +1,24 @@
+name: Compilar proyecto Java de pruebas
+
+on:
+  push:
+    branches:
+      - main
+      - '*/*'   # opcional: para que también se ejecute en ramas de alumnado
+
+jobs:
+  compilar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v3
+
+      - name: Instalar Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Compilar Hola Mundo
+        run: javac java-pruebas/src/Main.java
