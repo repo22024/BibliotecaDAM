@@ -144,6 +144,9 @@ INSERT INTO generos (nombre) VALUES
 SHOW TABLES;
 SELECT * FROM generos; -- Muestra la lista de géneros con sus IDs
 
+-- Pendiente: Incluir 'Fundación' en la tabla de sci-fi / MODIFICADO POR: Javier Fernández Alonso
+
+-- Fecha: 03-06-2026 
 -- MODIFICADO POR: Melisa Chávez
 -- FECHA: 01/06/26
 
