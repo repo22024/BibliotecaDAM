@@ -13,4 +13,4 @@ jobs:
        run: |
          echo "Iniciando proceso..."
          echo "Comprobando codigo..."
-         echo "Todo correcto ✅"
+         echo "Todo correcto "
