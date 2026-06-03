@@ -146,3 +146,6 @@ SELECT * FROM generos; -- Muestra la lista de géneros con sus IDs
 
 -- MODIFICADO POR: Melisa Chávez
 -- FECHA: 01/06/26
+
+-- Modificado a fecha de hoy
+-- 03/06/26
