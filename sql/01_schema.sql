@@ -78,6 +78,20 @@ INSERT INTO libros (titulo, autor, anio, id_genero) VALUES
     ('Postguerra: Una historia de Europa desde 1945', 'Tony Judt', 2005, 3),
     ('SPQR: Una historia de la antigua Roma', 'Mary Beard', 2015, 3);
 
+-- =====================================================================
+-- AÑADIR LIBROS DE HISTORIA
+-- DESCRIPCIÓN: Inserción de 5 libros de la categoría Historia
+-- Alumno: Melisa Chávez González. 
+-- =====================================================================
+INSERT INTO libros (titulo, autor, anio, id_genero) VALUES
+    ('Sapiens: De animales a dioses', 'Yuval Noah Harari', 2011, 3),
+    ('Armas, gérmenes y acero', 'Jared Diamond', 1997, 3),
+    ('El queso y los gusanos', 'Carlo Ginzburg', 1976, 3),
+    ('Postguerra: Una historia de Europa desde 1945', 'Tony Judt', 2005, 3),
+    ('SPQR: Una historia de la antigua Roma', 'Mary Beard', 2015, 3),
+    ('La Segunda Guerra Mundial', 'Antony Beevor', 2012, 3),
+    ('Los Pilares de la Tierra', 'Ken Follett', 1989, 3);
+
 
 DESCRIPCION: Libros de novela para la BibliotecaDAM
 ALUMNO: Ulises.
@@ -133,3 +147,10 @@ SELECT * FROM generos; -- Muestra la lista de géneros con sus IDs
 -- Pendiente: Incluir 'Fundación' en la tabla de sci-fi / MODIFICADO POR: Javier Fernández Alonso
 
 -- Fecha: 03-06-2026 
+-- MODIFICADO POR: Melisa Chávez
+-- FECHA: 01/06/26
+
+-- Modificado a fecha de hoy
+-- 03/06/26
+-- MODIFICADO POR: Lucía Hdez Pestana 01/06/2026
+-- Nueva modificación : Lucía Hdez Pestana 03/06/2026
